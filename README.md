@@ -1,11 +1,7 @@
-# 🔥 Qwen_from_scratch: Building a Modern LLM from the Ground Up
 
 > 🧠 A fully implemented small-scale language model inspired by **Qwen3**, built **from scratch** using PyTorch.  
-> Every component — from **GQA** to **RoPE**, **SwiGLU**, **Muon optimizer**, and **weight tying** — is explained and implemented in pure code.
-
 🚀 Trained on 500K tokens | 📊 Final Perplexity: **3.05** | 💾 Only **32M parameters**
 
-## 🌟 Features & Modern Techniques
 
 | ✅ **Grouped-Query Attention (GQA)** | Shared KV heads → faster inference, less memory |
 | ✅ **Rotary Position Embeddings (RoPE)** | Relative position encoding, works on longer sequences |
@@ -33,9 +29,6 @@
 | **Trained On** | 500K tokens from SmolLM corpus |
 | **Training Steps** | 2000 |
 
-Despite its tiny size, it learns meaningful language patterns.
-
----
 
 ## 📊 Training Results
 
